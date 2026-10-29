@@ -1,11 +1,21 @@
-import re
-text=input()
-result=re.findall(r"[0-9]",text)
-print(result)
+import os
+with open("log.txt","w") as f:
+    f.write("I can do it"+"\n")
 
-from datetime import datetime
-date1 = datetime(2026, 10, 5, 12, 0, 0)
-date2 = datetime(2026, 10, 31, 10, 30, 0)
-difference = date1 - date2
+with open("log.txt","r") as f:
+    content=f.read()
+    print(content)
 
-print(difference)
+with open("log.txt","a") as f:
+    f.write("full mark")
+with open("log.txt","r") as f:
+    content=f.read()
+    print(content)
+path="practice6"
+if os.path.exists():
+    print("Filename", os.path.basename(path))
+    print("Directory",os.path.dirname(path))
+else:
+    print("it does not exist")
+os.rename("log.txt","log_old.txt")
+os.remove("log_old.txt")
