@@ -1,5 +1,5 @@
 
-DB_NAME = "phonebook_db"
+DB_NAME = "postgres"
 DB_USER = "postgres"
 DB_PASSWORD = "12345678"
 DB_HOST = "localhost"

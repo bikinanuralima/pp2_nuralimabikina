@@ -1,6 +1,3 @@
-
-
-
 CREATE OR REPLACE PROCEDURE upsert_contact(
     p_name VARCHAR,
     p_phone VARCHAR

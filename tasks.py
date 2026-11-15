@@ -12,10 +12,9 @@ with open("log.txt","r") as f:
     content=f.read()
     print(content)
 path="practice6"
-if os.path.exists():
-    print("Filename", os.path.basename(path))
-    print("Directory",os.path.dirname(path))
+if os.path.exists("log.txt"):
+   print ("the file exists")
 else:
     print("it does not exist")
 os.rename("log.txt","log_old.txt")
-os.remove("log_old.txt")
+os.remove("log.txt")
