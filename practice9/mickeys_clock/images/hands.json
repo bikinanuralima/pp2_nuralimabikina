@@ -1,0 +1,33 @@
+{
+  "right": {
+    "file": "hand_right.png",
+    "pivot": [
+      30,
+      154
+    ],
+    "rest_angle": 60.5
+  },
+  "left": {
+    "file": "hand_left.png",
+    "pivot": [
+      181,
+      149
+    ],
+    "rest_angle": 305.0
+  },
+  "hub": {
+    "file": "hub.png",
+    "pivot": [
+      24,
+      24
+    ]
+  },
+  "center": [
+    420,
+    413
+  ],
+  "face_size": [
+    840,
+    840
+  ]
+}
